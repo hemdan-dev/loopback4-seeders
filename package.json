@@ -1,0 +1,37 @@
+{
+  "name": "loopback4-seeders",
+  "version": "0.1.0",
+  "description": "Looback 4 seeder pakage",
+  "keywords": [
+    "loopback-extension",
+    "loopback4-extension",
+    "loopback",
+    "loopback4",
+    "loopback-next",
+    "seeders",
+    "seeding",
+    "seed"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hemdan-dev/loopback4-seeders"
+  },
+  "author": "Mohamed Hemdan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "ts-node": "^10.9.1",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "bin": {
+    "lb4-seed": "./dist/index.js"
+  }
+}

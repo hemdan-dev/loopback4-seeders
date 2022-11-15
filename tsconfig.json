@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "include": [
+      "src",
+      "./src/**/*"
+    ],
+    "exclude": [
+      "node_modules/**",
+      "packages/*/node_modules/**",
+      "**/*.d.ts"
+    ],
+    "compilerOptions": {
+      "lib": ["es2020"],
+      "outDir":"dist",
+      "target": "es2018",
+      "module": "CommonJS",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "removeComments": true,
+      "alwaysStrict": true,
+      "declaration": true
+    }
+}
+  
